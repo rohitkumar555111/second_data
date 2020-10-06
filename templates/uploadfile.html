@@ -1,0 +1,17 @@
+
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>file uplaod</title>
+  </head>
+  <body>
+    <form class=""  method="post" enctype="multipart/form-data">
+      {% csrf_token %}
+      <input type="file" name="doumentfile">
+      <button type="submit" name="button">uplaod</button>
+
+    </form>
+  </body>
+</html>

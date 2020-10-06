@@ -1,0 +1,22 @@
+body {
+  background-color: whitesmoke;
+  font-family: sans-serif;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.table-items {
+  margin: 20px;
+  padding: 20px;
+}
+
+.contentclass {
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+.imagep {
+  width: 100px;
+  height: 100px;
+  
+}
